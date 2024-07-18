@@ -1,0 +1,162 @@
+/* General Styles */
+body, html {
+    width: 100%;
+    height: 100%;
+    background-image: url(foods/Background/event-3.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.top-left-logo {
+    position: absolute;
+    top: 0;
+    left: 20px;
+    margin: 10px; 
+}
+
+.top-left-logo img {
+    max-width: 13%; 
+    height: 13%; 
+}
+
+h1{
+    color:yellow;
+    background: darkred;
+    margin: 15px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 10px;
+    text-align: center;
+    border-radius: 50%;
+    
+    cursor: pointer;
+    
+}
+h1:hover{
+    background-image: url(Background/20240715_211734.jpg);
+    background-position: center;
+    background-size: cover;
+    color:yellow;
+    
+}
+h3{
+    background: darkred;
+    color:yellow;
+    text-align: center;
+    border-radius: 60%;
+    cursor: pointer;
+}
+
+h3:hover{
+    background-image: url(Background/20240715_211734.jpg);
+    background-position: center;
+    background-size: cover;
+    color:darkred;
+}
+
+
+
+
+.header {
+    background: darkred;
+    color: YELLOW;
+    text-align: center;
+    padding: 1rem;
+}
+
+nav {
+    background: darkred;
+    color: #fff;
+    text-align: center;
+    text-wrap-mode: block;
+    padding: 1rem;
+    margin-top: -5%;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    
+
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 3rem;
+    
+  
+}
+
+nav ul li a {
+    color:yellow;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color:black;
+    border-width: 10%;
+    border-radius: 40%;
+    background-image: url(Drinks/istockphoto-173501950-612x612.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+base {
+    background: darkred;
+    color:yellow;
+    text-align: center;
+    padding: 0.5rem;
+    margin-top: 12%;
+    cursor: pointer;
+    
+
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('restaurant-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 6rem 0;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.btn {
+    display: inline-block;
+    background-color:darkred;
+    color: YELLOW;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: black;
+}

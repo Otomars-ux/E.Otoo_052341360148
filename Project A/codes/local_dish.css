@@ -1,0 +1,163 @@
+/* menu-styles.css */
+
+body {
+    background-image: url(Drinks/istockphoto-1155636001-612x612.jpg);
+    background-position: center;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    ;
+}
+
+header {
+    cursor: pointer;
+    background:darkred;
+    color: yellow;
+    size:40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    text-align: center;
+    padding: 1.6rem 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+    color:yellow;
+
+
+}
+
+h1:hover{
+    
+    border-radius: 1000%;
+    background: yellow;
+    
+    
+    color:darkred;
+}
+
+
+
+
+main {
+    max-width: 1200px;
+    margin: auto;
+    padding: 2rem;
+}
+
+.menu-section {
+    margin-bottom: 3rem;
+}
+
+.menu-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 0.5rem;
+}
+
+.menu-item {
+    background-color: yellow;
+    padding: 1rem;
+    border-radius: 50px;
+    box-shadow: white;
+    text-align: center;
+}
+
+
+
+
+.menu-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+}
+
+.menu-item p {
+    margin: 0;
+}
+
+.menu-item button {
+    background-color: darkred;
+    color: yellow;
+    padding: 0.5rem 1rem;
+    
+    border-radius: 50%;
+   
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.menu-item button:hover {
+    background-color:darkred;
+    color:yellow;
+}
+
+base {
+    background-color: darkred;
+   
+    color: yellow;
+    text-decoration: none;
+    text-align: center;
+    padding: 0.7rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: -3%;
+    cursor: pointer;
+}
+
+
+nav {
+    position: absolute;
+    top: -2%;
+    left: 44px;
+    margin: 5px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: auto auto  auto auto; /* Three columns */
+    gap: 0.5px;
+}
+
+nav ul li {
+    margin: auto;
+    text-align: inline;
+    
+    
+}
+
+
+
+p{
+    color: darkred;
+    cursor: pointer;
+
+}
+p:hover{
+    content: "DELICIOUS";
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: darkred;
+    padding: 0.5em;
+    display: block;
+    background: yellow;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    margin-top: 12px;
+}
+
+nav ul li a:hover {
+    background:darkred;
+    color:yellow;
+    
+}
+
+
